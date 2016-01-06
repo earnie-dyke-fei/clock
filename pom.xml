@@ -13,4 +13,11 @@
     </scm>
     <name>Pseudo Clock</name>
     <description>Provides applications with an overrideable system clock. Meant to replace System.getCurrentMillis() and provide for time sensitive testing.</description>
+    <dependencies>
+    	<dependency>
+    		<groupId>javax.enterprise</groupId>
+    		<artifactId>cdi-api</artifactId>
+    		<scope>provided</scope>
+    	</dependency>
+    </dependencies>
 </project>
